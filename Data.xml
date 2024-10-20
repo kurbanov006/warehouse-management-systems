@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sourse>
+  <categories>
+    <category>
+      <id>1</id>
+      <name>C#</name>
+      <description>Course-C#</description>
+    </category>
+    <category>
+      <id>2</id>
+      <name>C++</name>
+      <description>Course = C++</description>
+    </category>
+  </categories>
+  <categories />
+  <orders>
+    <order>
+      <id>1</id>
+      <productid>1</productid>
+      <quantity>24</quantity>
+      <orderdate>2024-10-19T19:27:46.714Z</orderdate>
+      <supplierid>1</supplierid>
+      <status>Uspeshno</status>
+    </order>
+    <order>
+      <id>2</id>
+      <productid>1</productid>
+      <quantity>24</quantity>
+      <orderdate>2024-10-19T19:27:46.714Z</orderdate>
+      <supplierid>1</supplierid>
+      <status>Uspeshno</status>
+    </order>
+  </orders>
+  <orders />
+  <orders />
+  <products>
+    <product>
+      <id>1</id>
+      <name>RC-COLA</name>
+      <description>Napitcki</description>
+      <quantity>34</quantity>
+      <price>12</price>
+      <categoryid>1</categoryid>
+    </product>
+    <product>
+      <id>2</id>
+      <name>RC-COLA</name>
+      <description>Napitcki</description>
+      <quantity>34</quantity>
+      <price>12</price>
+      <categoryid>1</categoryid>
+    </product>
+    <product>
+      <id>3</id>
+      <name>dalkds</name>
+      <description>awgfrgrw</description>
+      <quantity>13</quantity>
+      <price>1</price>
+      <categoryid>1</categoryid>
+    </product>
+  </products>
+  <products />
+  <products />
+  <suppliers>
+    <supplier>
+      <id>1</id>
+      <name>adidas</name>
+      <contactperson>khgf</contactperson>
+      <email>adidas.com</email>
+      <phone>875656875</phone>
+    </supplier>
+  </suppliers>
+  <products />
+</sourse>

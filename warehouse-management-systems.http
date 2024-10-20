@@ -1,0 +1,6 @@
+@warehouse_management_systems_HostAddress = http://localhost:5031
+
+GET {{warehouse_management_systems_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
