@@ -11,11 +11,13 @@ IConfigurationRoot configuration = new ConfigurationBuilder()
 .Build();
 
 builder.Services.AddSingleton<IConfiguration>(configuration);
+builder.Services.AddApplicationServices();
+// builder.Services.AddTransient<ICategoryService, CategoryService>();
+// builder.Services.AddTransient<IOrderService, OrderService>();
+// builder.Services.AddTransient<IProductService, ProductService>();
+// builder.Services.AddTransient<ISupplierService, SupplierService>();
 
-builder.Services.AddTransient<ICategoryService, CategoryService>();
-builder.Services.AddTransient<IOrderService, OrderService>();
-builder.Services.AddTransient<IProductService, ProductService>();
-builder.Services.AddTransient<ISupplierService, SupplierService>();
+
 
 
 var app = builder.Build();
